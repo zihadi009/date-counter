@@ -11,7 +11,7 @@ function App() {
 }
 
 function Counter() {
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
   const date = new Date('november 16 2001');
   date.setDate(date.getDate() + count);
